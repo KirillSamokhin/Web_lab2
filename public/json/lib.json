@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "title": "Моби Дик",
+    "author": "Герман Мелвилл",
+    "date": "1851-12-31",
+    "in_stock": "да",
+    "cover": "https://img3.labirint.ru/rc/aee2c0d0db62ccb778e41a2c07f87934/363x561q80/books52/518121/cover.jpg?1667895904",
+    "reader": "-",
+    "date_return": "-"
+  },
+  {
+    "id": 1,
+    "title": "Затерянный мир",
+    "author": "Артур Конан Дойл",
+    "date": "1912-07-01",
+    "in_stock": "нет",
+    "cover": "https://www.ukazka.ru/img/b/uk528838.jpg",
+    "reader": "Test",
+    "date_return": "2023-09-01"
+  },
+  {
+    "id": 2,
+    "title": "Дракула",
+    "author": "Брэм Стокер",
+    "date": "1897-12-12",
+    "in_stock": "да",
+    "cover": "https://cdn.img-gorod.ru/0x1200/nomenclature/25/681/2568133.jpg",
+    "reader": "-",
+    "date_return": "-"
+  }
+]

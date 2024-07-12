@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.min.css')
+    body.w3-indigo
+        div.w3-container.w3-col.s1
+            img(src='./public/imgs/logo.jpg' alt='Не нашёл' width='130' height='127').w3-display-topleft
+        div.w3-container.w3-white.w3-col.s11.w3-center.w3-serif
+            div.w3-col.s11.w3-center
+                h1.w3-center.w3-serif= title
+            div.w3-col.s1.w3-center
+            div.w3-col.s11.w3-center
+                p Welcome to #{title}
+            form(action="/library" method="GET")
+                div.w3-col.s1.w3-center
+                    button.w3-button.w3-white.w3-border.w3-border-blue.w3-round-medium(type='Submit') Войти
